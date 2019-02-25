@@ -30,10 +30,12 @@ p {
 
 #type {
     font-size: 1.4em;
+    padding: 1em;
 }
 
 #countdown {
     font-size: 3em;
+    padding: 1em;
 }
 
 #settings { 
@@ -52,16 +54,16 @@ p {
      height: 100%;
      display: inline-flex;
      float:left;
-     border-style: solid;
-     font-size:0.8em;
+     font-size:1em;
  }
 
  .modifier span {
      width:50%;
      display: block;
      float:left;
+     top: 0; bottom: 0;
+     margin: auto;
  }
-
 
  .operation {
      /*This is for the operations to be added via javascript.*/
@@ -70,6 +72,13 @@ p {
     height: 100%;
     display: inline-flex;
     float: left;
-    border-style: solid;
+ }
+
+ .operation button {
+     /* Figure out a way to make these look nice at some point */
+     top: 0; bottom: o;
+     left: 0; right: 0;
+     margin: auto;
+     width: 50%; height: 20%;
  }
 
