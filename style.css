@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    background-color: rgb(58, 202, 22);
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+#clock {
+    background-color: red;
+    width: 600px;
+    height: 400px;
+
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+}
+
+#timer {
+    height: 50%;
+    width:100%;
+}
+
+#type {
+    font-size: 1.4em;
+}
+
+#countdown {
+    font-size: 3em;
+}
+
+#settings { 
+    height:50%;
+    width:100%;
+ }
+
+ #modifiers, #operations {
+    height: 50%;
+    width:100%;
+ }
+
+ .modifier {
+     margin:0;
+     width: 50%;
+     height: 100%;
+     display: inline-flex;
+     float:left;
+     border-style: solid;
+     font-size:0.8em;
+ }
+
+ .modifier span {
+     width:50%;
+     display: block;
+     float:left;
+ }
+
+
+ .operation {
+     /*This is for the operations to be added via javascript.*/
+    margin:0;
+    width: 25%;
+    height: 100%;
+    display: inline-flex;
+    float: left;
+    border-style: solid;
+ }
+
